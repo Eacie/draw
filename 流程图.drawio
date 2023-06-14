@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T12:12:02.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="BwUf8v9DMjLN533fiPP_" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T12:22:35.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="54uaXyngtwkQDsYQeyap" version="21.3.8" type="github">
   <diagram name="第 1 页" id="AkPrUvhRBGIo_sODVcCK">
-    <mxGraphModel dx="1809" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2005" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -193,8 +193,8 @@
         <mxCell id="agxNZYJJnrSQmRL50gCt-71" value="GameActorManager.&lt;br&gt;Update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1170" y="690" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-72" value="获取当前server的时间，还有_timer_list队列的长度，然后" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="750" width="140" height="60" as="geometry" />
+        <mxCell id="agxNZYJJnrSQmRL50gCt-72" value="获取当前server的时间，还有_timer_list队列的长度count，然后对count个数据进行遍历，每次从队列里尝试取出数据timeAction，如果该timeAction._timer大于当前server时间time_now，则把它放回_timer_list，否则调用SendMessage函数，然后将其放入_back_timer_list队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="750" width="140" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
