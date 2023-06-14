@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T07:40:52.047Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="cnrBnBAPnJTJ7Q-D6aBG" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T08:23:48.949Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="scMTF4PVRH710wXmEanC" version="21.3.8" type="github">
   <diagram name="第 1 页" id="AkPrUvhRBGIo_sODVcCK">
     <mxGraphModel dx="1809" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -98,7 +98,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="agxNZYJJnrSQmRL50gCt-27" value="TimeInfo.Instance.Update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="850" y="690" width="140" height="60" as="geometry" />
+          <mxGeometry x="750" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agxNZYJJnrSQmRL50gCt-31" value="没注释，没太看懂" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="750" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agxNZYJJnrSQmRL50gCt-33" value="GameModel.Update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agxNZYJJnrSQmRL50gCt-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="agxNZYJJnrSQmRL50gCt-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="730" as="sourcePoint" />
+            <mxPoint x="1130" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agxNZYJJnrSQmRL50gCt-35" value="有一个单例队列_updates，每次dequeue取出来，如果已经被释放，则不放回队列。如果取出的不是ISingletonUpdate类型，也不放回队列。&lt;br&gt;如果以上两个if都没触发continue，则放回队列。然后调用其Update函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="750" width="140" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="agxNZYJJnrSQmRL50gCt-36" value="GameModel.Update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agxNZYJJnrSQmRL50gCt-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.65;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="agxNZYJJnrSQmRL50gCt-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1210" y="670" as="sourcePoint" />
+            <mxPoint x="1260" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agxNZYJJnrSQmRL50gCt-38" value="被接口挡住了，内部逻辑没看见" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="750" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
