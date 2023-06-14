@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T10:09:27.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="e3nwbWktqKSIPZj3bUNi" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T12:12:02.134Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="BwUf8v9DMjLN533fiPP_" version="21.3.8" type="github">
   <diagram name="第 1 页" id="AkPrUvhRBGIo_sODVcCK">
-    <mxGraphModel dx="1500" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1809" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,14 +139,14 @@
         <mxCell id="agxNZYJJnrSQmRL50gCt-43" value="先清空_log_protos，一个int的List，猜测是log协议，然后获取开始时间，设置AtomicBoolean的_value为1，具体作用不详，然后更新_queue_max_count，然后根据_max_process_msg选择处理消息模式，有1个，1/4，1/2，全部。然后开始处理msg。如果message是GameMessageClient类，在_log_protos中Add它的csProtoID，如果不是，则Add它的_protoID&lt;br&gt;然后再调用HandleMessage函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="750" width="140" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="agxNZYJJnrSQmRL50gCt-45">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-43" target="agxNZYJJnrSQmRL50gCt-45">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1050" y="1110" as="sourcePoint" />
             <mxPoint x="980" y="1066" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="agxNZYJJnrSQmRL50gCt-45" value="HandleMessage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="1140" width="140" height="60" as="geometry" />
+          <mxGeometry x="990" y="1140" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agxNZYJJnrSQmRL50gCt-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-45" target="agxNZYJJnrSQmRL50gCt-49">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -155,7 +155,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="agxNZYJJnrSQmRL50gCt-49" value="msg._rpc_id &amp;lt; 0 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="1238" width="140" height="80" as="geometry" />
+          <mxGeometry x="990" y="1238" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="agxNZYJJnrSQmRL50gCt-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-49" target="agxNZYJJnrSQmRL50gCt-52">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -164,14 +164,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="agxNZYJJnrSQmRL50gCt-51" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="1318" width="30" height="30" as="geometry" />
+          <mxGeometry x="1030" y="1318" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="agxNZYJJnrSQmRL50gCt-52" value="CallMessageRet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="1350" width="140" height="60" as="geometry" />
+          <mxGeometry x="990" y="1350" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agxNZYJJnrSQmRL50gCt-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1120" y="1277.8" as="sourcePoint" />
+            <mxPoint x="1130" y="1278" as="sourcePoint" />
             <mxPoint x="1170" y="1277.8" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -182,7 +182,19 @@
           <mxGeometry x="1170" y="1298" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="agxNZYJJnrSQmRL50gCt-56" value="通过_rpc_id获得值sndmsg，然后看现在时间与sndmsg创建时间的差，大于600毫秒提示一个warning，然后给msg设置一个值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="980" y="1410" width="140" height="120" as="geometry" />
+          <mxGeometry x="990" y="1410" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="agxNZYJJnrSQmRL50gCt-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="agxNZYJJnrSQmRL50gCt-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="650" as="sourcePoint" />
+            <mxPoint x="1200" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="agxNZYJJnrSQmRL50gCt-71" value="GameActorManager.&lt;br&gt;Update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="agxNZYJJnrSQmRL50gCt-72" value="获取当前server的时间，还有_timer_list队列的长度，然后" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="750" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
