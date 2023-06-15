@@ -1,200 +1,215 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T12:22:35.052Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="54uaXyngtwkQDsYQeyap" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T11:57:48.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="-vhEyKeJkJshM3j2z4nP" version="21.3.8" type="github">
   <diagram name="第 1 页" id="AkPrUvhRBGIo_sODVcCK">
-    <mxGraphModel dx="2005" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1949" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="agxNZYJJnrSQmRL50gCt-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1250" y="-90" width="570" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="-20" width="910" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-1" value="Main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-1" value="Main" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="320" as="sourcePoint" />
             <mxPoint x="400" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-3" value="RunOptionsAndReturnExitCode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-3" value="RunOptionsAndReturnExitCode" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="170" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="agxNZYJJnrSQmRL50gCt-5">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="agxNZYJJnrSQmRL50gCt-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="330" y="230" as="sourcePoint" />
             <mxPoint x="330" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-5" value="ReadLine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-5" value="ReadLine" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-6" value="getData" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-6" value="getData" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-3" target="agxNZYJJnrSQmRL50gCt-6">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-3" target="agxNZYJJnrSQmRL50gCt-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="280" as="sourcePoint" />
             <mxPoint x="610" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-8" value="WriteData" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-8" value="WriteData" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="290" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.845;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-3" target="agxNZYJJnrSQmRL50gCt-8">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.845;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-3" target="agxNZYJJnrSQmRL50gCt-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="650" y="220" as="sourcePoint" />
             <mxPoint x="700" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-11" value="Main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-11" value="Main" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1460" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-11" target="agxNZYJJnrSQmRL50gCt-13">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-11" target="agxNZYJJnrSQmRL50gCt-13" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1780" y="150" as="sourcePoint" />
             <mxPoint x="1520" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-13" value="Connect" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-13" value="Connect" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1300" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="agxNZYJJnrSQmRL50gCt-18">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="agxNZYJJnrSQmRL50gCt-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1519.66" y="90" as="sourcePoint" />
             <mxPoint x="1519.66" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-18" value="readData" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-18" value="readData" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1460" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-11" target="agxNZYJJnrSQmRL50gCt-21">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-11" target="agxNZYJJnrSQmRL50gCt-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1620" y="90" as="sourcePoint" />
             <mxPoint x="1620" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-21" value="HashSet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-21" value="HashSet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1620" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-23" value="Main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-23" value="GameSever.Main" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1010" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-23">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1180" y="670" as="sourcePoint" />
             <mxPoint x="1070" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-25" value="GameMain.Update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-25" value="GameMain.Update" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1000" y="590" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="agxNZYJJnrSQmRL50gCt-27">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="agxNZYJJnrSQmRL50gCt-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1180" y="760" as="sourcePoint" />
             <mxPoint x="1070" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-27" value="TimeInfo.Instance.Update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-27" value="TimeInfo.Instance.Update" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="413" y="690" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-31" value="没注释，没太看懂" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-31" value="没注释，没太看懂" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="413" y="750" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-33" value="GameModel.Update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-33" value="GameModel.Update" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="690" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="agxNZYJJnrSQmRL50gCt-33">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="agxNZYJJnrSQmRL50gCt-33" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1080" y="730" as="sourcePoint" />
             <mxPoint x="1130" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-35" value="有一个单例队列_updates，每次dequeue取出来，如果已经被释放，则不放回队列。如果取出的不是ISingletonUpdate类型，也不放回队列。&lt;br&gt;如果以上两个if都没触发continue，则放回队列。然后调用其Update函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-35" value="有一个单例队列_updates，每次dequeue取出来，如果已经被释放，则不放回队列。如果取出的不是ISingletonUpdate类型，也不放回队列。&lt;br&gt;如果以上两个if都没触发continue，则放回队列。然后调用其Update函数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="750" width="140" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-36" value="GameNetervice.&lt;br&gt;UpdateService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-36" value="GameNetervice.&lt;br&gt;UpdateService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="827" y="690" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="agxNZYJJnrSQmRL50gCt-36">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="agxNZYJJnrSQmRL50gCt-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1030" y="650" as="sourcePoint" />
             <mxPoint x="1260" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-38" value="被接口挡住了，内部逻辑没看见" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-38" value="被接口挡住了，内部逻辑没看见" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="827" y="750" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.465;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="agxNZYJJnrSQmRL50gCt-41">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.465;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="agxNZYJJnrSQmRL50gCt-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1120" y="650" as="sourcePoint" />
             <mxPoint x="1330" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-41" value="GameModel.ActorHandle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-41" value="GameModel.ActorHandle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="690" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-43" value="先清空_log_protos，一个int的List，猜测是log协议，然后获取开始时间，设置AtomicBoolean的_value为1，具体作用不详，然后更新_queue_max_count，然后根据_max_process_msg选择处理消息模式，有1个，1/4，1/2，全部。然后开始处理msg。如果message是GameMessageClient类，在_log_protos中Add它的csProtoID，如果不是，则Add它的_protoID&lt;br&gt;然后再调用HandleMessage函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-43" value="先清空_log_protos，一个int的List，猜测是log协议，然后获取开始时间，设置AtomicBoolean的_value为1，具体作用不详，然后更新_queue_max_count，然后根据_max_process_msg选择处理消息模式，有1个，1/4，1/2，全部。然后开始处理msg。如果message是GameMessageClient类，在_log_protos中Add它的csProtoID，如果不是，则Add它的_protoID&lt;br&gt;然后再调用HandleMessage函数" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="750" width="140" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-43" target="agxNZYJJnrSQmRL50gCt-45">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-44" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-43" target="agxNZYJJnrSQmRL50gCt-45" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1050" y="1110" as="sourcePoint" />
             <mxPoint x="980" y="1066" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-45" value="HandleMessage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-45" value="HandleMessage" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="1140" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-45" target="agxNZYJJnrSQmRL50gCt-49">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-45" target="agxNZYJJnrSQmRL50gCt-49" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1010" y="1310" as="sourcePoint" />
             <mxPoint x="1000" y="1240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-49" value="msg._rpc_id &amp;lt; 0 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-49" value="msg._rpc_id &amp;lt; 0 ?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="1238" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-49" target="agxNZYJJnrSQmRL50gCt-52">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-49" target="agxNZYJJnrSQmRL50gCt-52" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="990" y="1390" as="sourcePoint" />
             <mxPoint x="990" y="1360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-51" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-51" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1030" y="1318" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-52" value="CallMessageRet" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-52" value="CallMessageRet" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="1350" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-53" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1130" y="1278" as="sourcePoint" />
             <mxPoint x="1170" y="1277.8" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-54" value="_message_handle.&lt;br&gt;HandleMessage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-54" value="_message_handle.&lt;br&gt;HandleMessage" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="1238" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-55" value="接口挡住了" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-55" value="接口挡住了" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="1298" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-56" value="通过_rpc_id获得值sndmsg，然后看现在时间与sndmsg创建时间的差，大于600毫秒提示一个warning，然后给msg设置一个值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-56" value="通过_rpc_id获得值sndmsg，然后看现在时间与sndmsg创建时间的差，大于600毫秒提示一个warning，然后给msg设置一个值" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="1410" width="140" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="agxNZYJJnrSQmRL50gCt-71">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-70" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" target="agxNZYJJnrSQmRL50gCt-71" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1070" y="650" as="sourcePoint" />
             <mxPoint x="1200" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-71" value="GameActorManager.&lt;br&gt;Update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-71" value="GameActorManager.&lt;br&gt;Update" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="690" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="agxNZYJJnrSQmRL50gCt-72" value="获取当前server的时间，还有_timer_list队列的长度count，然后对count个数据进行遍历，每次从队列里尝试取出数据timeAction，如果该timeAction._timer大于当前server时间time_now，则把它放回_timer_list，否则调用SendMessage函数，然后将其放入_back_timer_list队列" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="agxNZYJJnrSQmRL50gCt-72" value="获取当前server的时间，还有_timer_list队列的长度count，然后对count个数据进行遍历，每次从队列里尝试取出数据timeAction，如果该timeAction._timer大于当前server时间time_now，则把它放回_timer_list，否则调用SendMessage函数，然后将其放入_back_timer_list队列" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="750" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EGltKX2aPdwIZXadGuva-1" value="GameTypeSystems.&lt;br&gt;Update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="690" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EGltKX2aPdwIZXadGuva-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.421;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="EGltKX2aPdwIZXadGuva-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1140" y="630" as="sourcePoint" />
+            <mxPoint x="1275" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EGltKX2aPdwIZXadGuva-3" value="获取queue以及其长度count，然后遍历，每次Dequeue取得instanceID，然后通过_all_object的Get方法看是否能取得该ID对应的object，取不到或者该object已经被释放了则跳过。然后通过TypeSystem的_type_system_map的TryGetValue方法通过type给oneTypeSystems赋值，失败会返回null，&lt;br&gt;然后通过oneTypeSystems的_map的TryGetValue方法给List&amp;lt;object&amp;gt;systems赋值，成功赋值就返回systems，否则返回null" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="750" width="140" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="EGltKX2aPdwIZXadGuva-4" value="GMServerComponent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
