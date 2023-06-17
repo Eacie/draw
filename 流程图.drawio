@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T08:47:11.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="mrlEOq1_X5HR-A7GY05r" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T09:30:23.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="mCNYaaS_ZuPBB_RKQ-FJ" version="21.4.0" type="github">
   <diagram name="第 1 页" id="AkPrUvhRBGIo_sODVcCK">
     <mxGraphModel dx="2067" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -369,6 +369,30 @@
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-48" value="Log信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2020" y="750" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-50" value="ActorConfigData.Instance.&lt;br&gt;GetDict" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="1090" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-51" value="获取actor的config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="1150" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-52" value="通过GetDict获取actor的config设置，config的属性有ID、serverID、ActorName和MsgType。&lt;br&gt;然后用foreach对每个actor遍历，通过serverID把actor加载到GameModel的_router_actor上。&lt;br&gt;通过一个Type数组，利用反射机制GetConstructor方法找到构造函数赋值给constructor，&lt;br&gt;然后利用constructor.invoke创建实例gactor，调用GameActorManager.&lt;br&gt;Instance.ADD把gactor添加到GameActorManager实例中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="750" width="150" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2434.47" y="1060" as="sourcePoint" />
+            <mxPoint x="2434.47" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-54" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWC4nCh9BzGZ-LohU2af-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2435" y="1260" as="sourcePoint" />
+            <mxPoint x="2430" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-55" value="Q：actor是用户吗&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="1260" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
