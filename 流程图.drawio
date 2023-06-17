@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T08:17:34.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="IMWvDIMsriWwMknUsQxy" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T08:47:11.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="mrlEOq1_X5HR-A7GY05r" version="21.4.0" type="github">
   <diagram name="第 1 页" id="AkPrUvhRBGIo_sODVcCK">
-    <mxGraphModel dx="1298" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2067" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,16 +212,16 @@
           <mxGeometry x="20" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-1" value="GameSever.Main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2040" y="455" width="120" height="60" as="geometry" />
+          <mxGeometry x="3060" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2100" y="515" as="sourcePoint" />
-            <mxPoint x="2100" y="545" as="targetPoint" />
+            <mxPoint x="3119.4700000000003" y="340" as="sourcePoint" />
+            <mxPoint x="3119.4700000000003" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-3" value="GameMain.Init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2030" y="540" width="140" height="60" as="geometry" />
+          <mxGeometry x="3050" y="370" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -230,7 +230,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-5" value="GameModel.&lt;br&gt;AddSingletion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1534" y="690" width="120" height="60" as="geometry" />
+          <mxGeometry x="1880" y="690" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -239,49 +239,31 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-7" value="Log.&lt;br&gt;SystemConsoleAndLogInfo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="690" width="150" height="60" as="geometry" />
+          <mxGeometry x="2020" y="690" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-10" value="GameMain.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="690" width="150" height="60" as="geometry" />
+          <mxGeometry x="2190" y="690" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWC4nCh9BzGZ-LohU2af-10">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2100" y="600" as="sourcePoint" />
             <mxPoint x="1880" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWC4nCh9BzGZ-LohU2af-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2100" y="600" as="sourcePoint" />
-            <mxPoint x="2040" y="680" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-13" value="GameMain.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2020" y="690" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-15">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2030" y="650" as="sourcePoint" />
-            <mxPoint x="2260" y="680" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-15" value="GameMain.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="690" width="150" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-10">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-10" target="MWC4nCh9BzGZ-LohU2af-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1920" y="820" as="sourcePoint" />
             <mxPoint x="1915" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-17" value="GameModel.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="780" width="150" height="60" as="geometry" />
+          <mxGeometry x="2190" y="780" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-18" value="设置服务器ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="840" width="150" height="60" as="geometry" />
+          <mxGeometry x="2190" y="840" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-19" value="添加单例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1534" y="750" width="120" height="60" as="geometry" />
+          <mxGeometry x="1880" y="750" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-20" value="GameMain.initActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2360" y="690" width="150" height="60" as="geometry" />
@@ -292,7 +274,7 @@
             <mxPoint x="2325" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWC4nCh9BzGZ-LohU2af-25">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2100" y="600" as="sourcePoint" />
             <mxPoint x="2580" y="680" as="targetPoint" />
@@ -309,6 +291,84 @@
         </mxCell>
         <mxCell id="MWC4nCh9BzGZ-LohU2af-27" value="GameServerLoader.&lt;br&gt;Instance.Reload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2700" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2230" y="600" as="sourcePoint" />
+            <mxPoint x="2920" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-29" value="GameModel._roter_actor?.&lt;br&gt;StartRouter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2470" y="600" as="sourcePoint" />
+            <mxPoint x="3090" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-31" value="GameModel._router_actor.&lt;br&gt;CheckAllReady" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-34" value="while循环的条件，一直调用，如果为false，将调用GameNetService.Instance.&lt;br&gt;UpDateService和GameModel._router_actor?.&lt;br&gt;ActorHandle，直到为true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="750" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2690" y="650" as="sourcePoint" />
+            <mxPoint x="3260" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-36" value="GameNetService.Instance.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;UpDateService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3210" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-38" value="GameModel._router_actor?.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;ActorHandle&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3380" y="690" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2805" y="540" as="sourcePoint" />
+            <mxPoint x="3380" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-40" value="GameActorManager.Instance.&lt;br&gt;RegisterOtherActorHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3561.5" y="690" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-41" value="GameActorManager.Instance.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RegisterCenterHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3740" y="690" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2880" y="570" as="sourcePoint" />
+            <mxPoint x="3630" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2880" y="570" as="sourcePoint" />
+            <mxPoint x="3812" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3490" y="555" as="sourcePoint" />
+            <mxPoint x="3973.157894736842" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-45" value="ActorThreadPool.Instance.&lt;br&gt;Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3920" y="690" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-46" value="GameActorManager.Instance.&lt;br&gt;RegisterAllActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4100" y="690" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3020" y="390" as="sourcePoint" />
+            <mxPoint x="4090" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-48" value="Log信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="750" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
