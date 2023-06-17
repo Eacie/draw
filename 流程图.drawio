@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T09:59:04.810Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="4pd1BS6MFnpxXfQJbiwk" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T10:23:01.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="hzTHacqsbX3EGMW7z-r-" version="21.4.0" type="github">
   <diagram name="第 1 页" id="AkPrUvhRBGIo_sODVcCK">
     <mxGraphModel dx="2067" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -400,8 +400,14 @@
         <mxCell id="MWC4nCh9BzGZ-LohU2af-57" value="大概就是加载一些东西" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2700" y="750" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-58" value="先获得ServerConfigData的字典，然后看字典里每个数据的Key是否和_server_id相同，" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-58" value="先获得ServerConfigData的字典，然后看字典里每个数据的Key是否和_server_id相同，相同将键值对(Key,1)加入_servers_con，不相同就把(Key,0)加入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2870" y="750" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-59" value="更新NetService的信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3210" y="750" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-60" value="获取服务器时间，把ActorManager的_run_flags[_actor_id]设为true，应该表示的是用户上线了，" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3380" y="750" width="160" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
