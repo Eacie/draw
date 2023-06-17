@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T11:57:48.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="-vhEyKeJkJshM3j2z4nP" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T08:17:34.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="IMWvDIMsriWwMknUsQxy" version="21.4.0" type="github">
   <diagram name="第 1 页" id="AkPrUvhRBGIo_sODVcCK">
-    <mxGraphModel dx="1949" dy="1877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="1466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -196,20 +196,119 @@
         <mxCell id="agxNZYJJnrSQmRL50gCt-72" value="获取当前server的时间，还有_timer_list队列的长度count，然后对count个数据进行遍历，每次从队列里尝试取出数据timeAction，如果该timeAction._timer大于当前server时间time_now，则把它放回_timer_list，否则调用SendMessage函数，然后将其放入_back_timer_list队列" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="750" width="140" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="EGltKX2aPdwIZXadGuva-1" value="GameTypeSystems.&lt;br&gt;Update" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EGltKX2aPdwIZXadGuva-1" value="GameTypeSystems.&lt;br&gt;Update" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="690" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EGltKX2aPdwIZXadGuva-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.421;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="EGltKX2aPdwIZXadGuva-1">
+        <mxCell id="EGltKX2aPdwIZXadGuva-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.421;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="agxNZYJJnrSQmRL50gCt-25" target="EGltKX2aPdwIZXadGuva-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1140" y="630" as="sourcePoint" />
             <mxPoint x="1275" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EGltKX2aPdwIZXadGuva-3" value="获取queue以及其长度count，然后遍历，每次Dequeue取得instanceID，然后通过_all_object的Get方法看是否能取得该ID对应的object，取不到或者该object已经被释放了则跳过。然后通过TypeSystem的_type_system_map的TryGetValue方法通过type给oneTypeSystems赋值，失败会返回null，&lt;br&gt;然后通过oneTypeSystems的_map的TryGetValue方法给List&amp;lt;object&amp;gt;systems赋值，成功赋值就返回systems，否则返回null" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EGltKX2aPdwIZXadGuva-3" value="获取queue以及其长度count，然后遍历，每次Dequeue取得instanceID，然后通过_all_object的Get方法看是否能取得该ID对应的object，取不到或者该object已经被释放了则跳过。然后通过TypeSystem的_type_system_map的TryGetValue方法通过type给oneTypeSystems赋值，失败会返回null，&lt;br&gt;然后通过oneTypeSystems的_map的TryGetValue方法给List&amp;lt;object&amp;gt;systems赋值，成功赋值就返回systems，否则返回null" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1360" y="750" width="140" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="EGltKX2aPdwIZXadGuva-4" value="GMServerComponent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EGltKX2aPdwIZXadGuva-4" value="GMServerComponent" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="1710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-1" value="GameSever.Main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="455" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2100" y="515" as="sourcePoint" />
+            <mxPoint x="2100" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-3" value="GameMain.Init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2030" y="540" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1740" y="790" as="sourcePoint" />
+            <mxPoint x="1600" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-5" value="GameModel.&lt;br&gt;AddSingletion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1534" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1860" y="730" as="sourcePoint" />
+            <mxPoint x="1720" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-7" value="Log.&lt;br&gt;SystemConsoleAndLogInfo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-10" value="GameMain.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWC4nCh9BzGZ-LohU2af-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2100" y="600" as="sourcePoint" />
+            <mxPoint x="1880" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWC4nCh9BzGZ-LohU2af-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2100" y="600" as="sourcePoint" />
+            <mxPoint x="2040" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-13" value="GameMain.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2030" y="650" as="sourcePoint" />
+            <mxPoint x="2260" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-15" value="GameMain.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1920" y="820" as="sourcePoint" />
+            <mxPoint x="1915" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-17" value="GameModel.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="780" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-18" value="设置服务器ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="840" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-19" value="添加单例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1534" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-20" value="GameMain.initActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1920" y="640" as="sourcePoint" />
+            <mxPoint x="2325" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWC4nCh9BzGZ-LohU2af-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2100" y="600" as="sourcePoint" />
+            <mxPoint x="2580" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-25" value="Instance.AddComponent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2530" y="690" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2210" y="590" as="sourcePoint" />
+            <mxPoint x="2750" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-27" value="GameServerLoader.&lt;br&gt;Instance.Reload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2700" y="690" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
