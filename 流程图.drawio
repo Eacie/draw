@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T10:23:01.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="hzTHacqsbX3EGMW7z-r-" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T10:31:27.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="X25HBtvUO2xxgVD95GTq" version="21.4.0" type="github">
   <diagram name="第 1 页" id="AkPrUvhRBGIo_sODVcCK">
-    <mxGraphModel dx="2067" dy="1951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3445" dy="2820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -406,8 +406,8 @@
         <mxCell id="MWC4nCh9BzGZ-LohU2af-59" value="更新NetService的信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3210" y="750" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-60" value="获取服务器时间，把ActorManager的_run_flags[_actor_id]设为true，应该表示的是用户上线了，" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3380" y="750" width="160" height="230" as="geometry" />
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-60" value="获取服务器时间赋值给time_start，把ActorManager的_run_flags[_actor_id]设为true，应该表示的是用户上线了，根据HandleMessageType的MessageType选择处理消息的方式——一个、1/4、1/2&lt;br&gt;然后用for循环遍历消息队列_message_queue，每次TryDequeue，然后调用HandleMessage处理消息&lt;br&gt;处理完了获取服务器时间赋值给time_end，计算time_cost，然后比较this的_queue_max_time_cost和time_cost，将两者更大的赋值的_queue_max_time_cost" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3380" y="750" width="160" height="350" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
