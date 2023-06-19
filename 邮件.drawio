@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T08:30:36.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" version="21.4.0" etag="gaOOnkOnYTDV5Oasu-7l" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-19T11:53:53.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="Kx7NRjTHZz_hv06-W1jp" version="21.4.0" type="github">
   <diagram name="第 1 页" id="jWjg_nSxuoue5GjSfEUD">
-    <mxGraphModel>
+    <mxGraphModel dx="982" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R2KGEx9fCPqM5bIvwB1s-1" value="SceneServerComponnentSystem.&lt;br&gt;_client_handle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="60" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R2KGEx9fCPqM5bIvwB1s-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R2KGEx9fCPqM5bIvwB1s-1" target="R2KGEx9fCPqM5bIvwB1s-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="sourcePoint" />
+            <mxPoint x="370" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R2KGEx9fCPqM5bIvwB1s-3" value="GetMailRewarsHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R2KGEx9fCPqM5bIvwB1s-8" value="创建一个Get_Mail_RewarsResp对象resp，先设置状态代码为Success、Msg为OK，&lt;br&gt;然后通过ActorHelperClass的DeserializeMessagePack反序列化msg的GetReadMemory，创建一个Get_Mail_RewardsParam&lt;br&gt;对象pup。如果pup为空，把resp的状态代码设置为ParamParseError，Msg也改，然后通过ActorHelperClass.&lt;br&gt;SendToGate发送消息给Gate；如果不为空，创建items字典，GameObjectMap对象，和一个List数组sourceList。如果MailId是0（代表全部邮件），创建一个long数组，利用gamePlayer.&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MailMgr.Mails.GetAllKeys()获得所有Mail的Id，对于每个MailId，通过MailManager的DealOneMail方法得到一个(outItems,gameMail)元组，outItems是&amp;lt;int,double&amp;gt;字典，第一个是物品ID，第二个是数量，然后遍历所有outItems的内容处理奖励，加入到sourceList中。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;处理完之后创建GAArgs实例，传入参数，表示从邮件获得的奖励，然后调用AddSourceArg添加来源附加参数，这里发送了Mail_Id，然后发送了Mail_Source&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="210" width="160" height="590" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
