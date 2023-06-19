@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T10:31:27.653Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="X25HBtvUO2xxgVD95GTq" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-19T02:13:13.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="wwQ0nxz6iJmIpunHMz9U" version="21.4.0" type="github">
   <diagram name="第 1 页" id="AkPrUvhRBGIo_sODVcCK">
-    <mxGraphModel dx="3445" dy="2820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2005" dy="1912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -211,203 +211,218 @@
         <mxCell id="EGltKX2aPdwIZXadGuva-4" value="GMServerComponent" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-1" value="GameSever.Main" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-1" value="GameSever.Main" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3060" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3119.4700000000003" y="340" as="sourcePoint" />
             <mxPoint x="3119.4700000000003" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-3" value="GameMain.Init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-3" value="GameMain.Init" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3050" y="370" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-5">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1740" y="790" as="sourcePoint" />
             <mxPoint x="1600" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-5" value="GameModel.&lt;br&gt;AddSingletion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-5" value="GameModel.&lt;br&gt;AddSingletion" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1880" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-7">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1860" y="730" as="sourcePoint" />
             <mxPoint x="1720" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-7" value="Log.&lt;br&gt;SystemConsoleAndLogInfo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-7" value="Log.&lt;br&gt;SystemConsoleAndLogInfo" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2020" y="690" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-10" value="GameMain.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-10" value="GameMain.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2190" y="690" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-10">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2100" y="600" as="sourcePoint" />
             <mxPoint x="1880" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-10" target="MWC4nCh9BzGZ-LohU2af-17">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-10" target="MWC4nCh9BzGZ-LohU2af-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1920" y="820" as="sourcePoint" />
             <mxPoint x="1915" y="780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-17" value="GameModel.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-17" value="GameModel.ServerId" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2190" y="780" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-18" value="设置服务器ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-18" value="设置服务器ID" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2190" y="840" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-19" value="添加单例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-19" value="添加单例" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1880" y="750" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-20" value="GameMain.initActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-20" value="GameMain.initActor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2360" y="690" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-20">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1920" y="640" as="sourcePoint" />
             <mxPoint x="2325" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-25">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2100" y="600" as="sourcePoint" />
             <mxPoint x="2580" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-25" value="Instance.AddComponent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-25" value="Instance.AddComponent" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2530" y="690" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-27">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2210" y="590" as="sourcePoint" />
             <mxPoint x="2750" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-27" value="GameServerLoader.&lt;br&gt;Instance.Reload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-27" value="GameServerLoader.&lt;br&gt;Instance.Reload" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2700" y="690" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-29">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-29" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2230" y="600" as="sourcePoint" />
             <mxPoint x="2920" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-29" value="GameModel._roter_actor?.&lt;br&gt;StartRouter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-29" value="GameModel._roter_actor?.&lt;br&gt;StartRouter" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2870" y="690" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-31">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2470" y="600" as="sourcePoint" />
             <mxPoint x="3090" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-31" value="GameModel._router_actor.&lt;br&gt;CheckAllReady" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-31" value="GameModel._router_actor.&lt;br&gt;CheckAllReady" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3040" y="690" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-34" value="while循环的条件，一直调用，如果为false，将调用GameNetService.Instance.&lt;br&gt;UpDateService和GameModel._router_actor?.&lt;br&gt;ActorHandle，直到为true" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-34" value="while循环的条件，一直调用，如果为false，将调用GameNetService.Instance.&lt;br&gt;UpDateService和GameModel._router_actor?.&lt;br&gt;ActorHandle，直到为true" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3040" y="750" width="150" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-36">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2690" y="650" as="sourcePoint" />
             <mxPoint x="3260" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-36" value="GameNetService.Instance.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;UpDateService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-36" value="GameNetService.Instance.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;UpDateService" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3210" y="690" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-38" value="GameModel._router_actor?.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;ActorHandle&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-38" value="GameModel._router_actor?.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;ActorHandle&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3380" y="690" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-38">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2805" y="540" as="sourcePoint" />
             <mxPoint x="3380" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-40" value="GameActorManager.Instance.&lt;br&gt;RegisterOtherActorHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-40" value="GameActorManager.Instance.&lt;br&gt;RegisterOtherActorHandler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3561.5" y="690" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-41" value="GameActorManager.Instance.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RegisterCenterHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-41" value="GameActorManager.Instance.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RegisterCenterHandler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3740" y="690" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-40">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-40" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2880" y="570" as="sourcePoint" />
             <mxPoint x="3630" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2880" y="570" as="sourcePoint" />
             <mxPoint x="3812" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-45">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-45" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3490" y="555" as="sourcePoint" />
             <mxPoint x="3973.157894736842" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-45" value="ActorThreadPool.Instance.&lt;br&gt;Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-45" value="ActorThreadPool.Instance.&lt;br&gt;Start" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3920" y="690" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-46" value="GameActorManager.Instance.&lt;br&gt;RegisterAllActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-46" value="GameActorManager.Instance.&lt;br&gt;RegisterAllActor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4100" y="690" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-46">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="MWC4nCh9BzGZ-LohU2af-3" target="MWC4nCh9BzGZ-LohU2af-46" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3020" y="390" as="sourcePoint" />
             <mxPoint x="4090" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-48" value="Log信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-48" value="Log信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2020" y="750" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-50" value="ActorConfigData.Instance.&lt;br&gt;GetDict" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-50" value="ActorConfigData.Instance.&lt;br&gt;GetDict" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2360" y="1090" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-51" value="获取actor的config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-51" value="获取actor的config" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2360" y="1150" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-52" value="通过GetDict获取actor的config设置，config的属性有ID、serverID、ActorName和MsgType。&lt;br&gt;然后用foreach对每个actor遍历，通过serverID把actor加载到GameModel的_router_actor上。&lt;br&gt;通过一个Type数组，利用反射机制GetConstructor方法找到构造函数赋值给constructor，&lt;br&gt;然后利用constructor.invoke创建实例gactor，调用GameActorManager.&lt;br&gt;Instance.ADD把gactor添加到GameActorManager实例中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-52" value="通过GetDict获取actor的config设置，config的属性有ID、serverID、ActorName和MsgType。&lt;br&gt;然后用foreach对每个actor遍历，通过serverID把actor加载到GameModel的_router_actor上。&lt;br&gt;通过一个Type数组，利用反射机制GetConstructor方法找到构造函数赋值给constructor，&lt;br&gt;然后利用constructor.invoke创建实例gactor，调用GameActorManager.&lt;br&gt;Instance.ADD把gactor添加到GameActorManager实例中" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2360" y="750" width="150" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2434.47" y="1060" as="sourcePoint" />
             <mxPoint x="2434.47" y="1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-54" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="MWC4nCh9BzGZ-LohU2af-51">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-54" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="MWC4nCh9BzGZ-LohU2af-51" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2435" y="1260" as="sourcePoint" />
             <mxPoint x="2430" y="1220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-55" value="Q：actor是用户吗&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-55" value="Q：actor是用户吗&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2360" y="1260" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-56" value="如果_components不为空且已有了传入参数的Type，抛出错误。&lt;br&gt;创建一个新的GameEntity命名为component，将this的Id赋值，并将this设置为它的_current_parent，然后利用_type_system初始化component，如果this是IAddComponent类，再调用_type_system的AddComponent方法，添加component" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-56" value="如果_components不为空且已有了传入参数的Type，抛出错误。&lt;br&gt;创建一个新的GameEntity命名为component，将this的Id赋值，并将this设置为它的_current_parent，然后利用_type_system初始化component，如果this是IAddComponent类，再调用_type_system的AddComponent方法，添加component" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2530" y="750" width="150" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-57" value="大概就是加载一些东西" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-57" value="大概就是加载一些东西" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2700" y="750" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-58" value="先获得ServerConfigData的字典，然后看字典里每个数据的Key是否和_server_id相同，相同将键值对(Key,1)加入_servers_con，不相同就把(Key,0)加入" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-58" value="先获得ServerConfigData的字典，然后看字典里每个数据的Key是否和_server_id相同，相同将键值对(Key,1)加入_servers_con，不相同就把(Key,0)加入" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2870" y="750" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-59" value="更新NetService的信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-59" value="更新NetService的信息" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3210" y="750" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MWC4nCh9BzGZ-LohU2af-60" value="获取服务器时间赋值给time_start，把ActorManager的_run_flags[_actor_id]设为true，应该表示的是用户上线了，根据HandleMessageType的MessageType选择处理消息的方式——一个、1/4、1/2&lt;br&gt;然后用for循环遍历消息队列_message_queue，每次TryDequeue，然后调用HandleMessage处理消息&lt;br&gt;处理完了获取服务器时间赋值给time_end，计算time_cost，然后比较this的_queue_max_time_cost和time_cost，将两者更大的赋值的_queue_max_time_cost" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="MWC4nCh9BzGZ-LohU2af-60" value="获取服务器时间赋值给time_start，把ActorManager的_run_flags[_actor_id]设为true，应该表示的是用户上线了，根据HandleMessageType的MessageType选择处理消息的方式——一个、1/4、1/2&lt;br&gt;然后用for循环遍历消息队列_message_queue，每次TryDequeue，然后调用HandleMessage处理消息&lt;br&gt;处理完了获取服务器时间赋值给time_end，计算time_cost，然后比较this的_queue_max_time_cost和time_cost，将两者更大的赋值的_queue_max_time_cost" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3380" y="750" width="160" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="GYn-868Fh-glP7cho3_U-1" value="传入GameModel._router_actor的RouterOtherActor方法赋值给该Instance的_handle_action属性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3562" y="750" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GYn-868Fh-glP7cho3_U-2" value="GameModel._router_actor.&lt;br&gt;RouterOtherActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3561.5" y="880" width="158" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GYn-868Fh-glP7cho3_U-3" value="传入id和要做的action，在_actors_cons里尝试通过actor_id来获得session_id，如果session_id不为0，那么看msg" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3561.5" y="940" width="158" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GYn-868Fh-glP7cho3_U-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GYn-868Fh-glP7cho3_U-1" target="GYn-868Fh-glP7cho3_U-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3750" y="930" as="sourcePoint" />
+            <mxPoint x="3800" y="880" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
