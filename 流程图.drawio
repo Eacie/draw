@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T06:29:15.855Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="RNonN9ZlDQWEvghteMS6" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-19T06:42:06.129Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="6UAdMbbRGjtT5IEOOoK_" version="21.4.0" type="github">
   <diagram name="第 1 页" id="AkPrUvhRBGIo_sODVcCK">
     <mxGraphModel dx="1809" dy="1788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -439,6 +439,16 @@
         <mxCell id="GYn-868Fh-glP7cho3_U-8" value="传入msg，把_center_actor_id赋值给msg的_tar_actor_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3742" y="940" width="158" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="GYn-868Fh-glP7cho3_U-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GYn-868Fh-glP7cho3_U-9" target="GYn-868Fh-glP7cho3_U-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4040" y="870" />
+              <mxPoint x="4090" y="870" />
+              <mxPoint x="4090" y="1080" />
+              <mxPoint x="4000" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GYn-868Fh-glP7cho3_U-9" value="调用ServerEnv.Instance.&lt;br&gt;GetProgaramActorThreads方法获取线程数量传给Start，根据线程数量创建新的线程，传入的是GameActor.Instance.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;ThreadRun方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3920" y="750" width="160" height="100" as="geometry" />
         </mxCell>
@@ -463,17 +473,14 @@
         <mxCell id="GYn-868Fh-glP7cho3_U-15" value="先通过GameActorManager.Instance.&lt;br&gt;_reload_flag.Get方法获取一个bool值，如果为true一直循环，然后调用GameActor.Instance.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;RunInThread方法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3920" y="940" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="GYn-868Fh-glP7cho3_U-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="GYn-868Fh-glP7cho3_U-18">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="4000" y="1070" as="sourcePoint" />
-            <mxPoint x="4000" y="1105" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="GYn-868Fh-glP7cho3_U-18" value="GameActor.Instance.&lt;br&gt;RunInThread" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3920" y="1100" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GYn-868Fh-glP7cho3_U-19" value="设置标志为false，添加读锁，获得_actor_queue的数量count，然后开始循环，每次尝试dequeue，对于dequeue出来的actor_id，尝试获得_actors里对应的GameActor对象赋值给slot，对比slot的_actor_id与dequeue出来的actor_id是否一样，如果一样再看slot的_message_queue是否count大于0，" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GYn-868Fh-glP7cho3_U-19" value="设置标志为false，添加读锁，获得_actor_queue的数量count，然后开始循环，每次尝试dequeue，对于dequeue出来的actor_id，尝试获得_actors里对应的GameActor对象赋值给slot，对比slot的_actor_id与dequeue出来的actor_id是否一样，如果一样再看slot的_message_queue是否count大于0，大于0就调用ActorHandle方法处理，然后把_actor_id放回_actor_queue，把flag设为true；不为0就直接放回。" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3920" y="1160" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="GYn-868Fh-glP7cho3_U-20" value="GameActorManager.Instance.&lt;br&gt;RegisterAllActor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4100" y="750" width="160" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
