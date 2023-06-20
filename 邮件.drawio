@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-20T06:26:22.572Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="IrgU4Z7vivPqt3vVwPQu" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-20T06:46:19.636Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="g8-vXxAkACbGMwLRKwIa" version="21.5.0" type="github">
   <diagram name="第 1 页" id="jWjg_nSxuoue5GjSfEUD">
-    <mxGraphModel dx="982" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
         <mxCell id="bhtFA3s2f1LtNf_wh4Dm-14" value="SeeMailRewarsHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="150" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-15" value="创建一个See_MailResp对象resp，设置状态代码为success，Msg为OK，然后传入msg.GetReadMemory&lt;br&gt;反序列化得到See_MailParam对象pup，如果pup为空，同左。如果不为空，调用MailManager.&lt;br&gt;CheckMailExpireTime方法，" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-15" value="创建一个See_MailResp对象resp，设置状态代码为success，Msg为OK，然后传入msg.GetReadMemory&lt;br&gt;反序列化得到See_MailParam对象pup，如果pup为空，同左。如果不为空，调用MailManager.&lt;br&gt;CheckMailExpireTime方法，然后看pup的MailId是否为0,0就创建一个mailIds数组，通过gamePlayer.MailMgr.Mails.&lt;br&gt;GetAllKeys获取所有邮件ID，对每个邮件ID用MailManager.SeeOneMail方法。不是0就看MailId这个指定邮件。最后调用ActorHelperClass.&lt;br&gt;SendToGate方法把内容送给gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="210" width="160" height="350" as="geometry" />
         </mxCell>
         <mxCell id="bhtFA3s2f1LtNf_wh4Dm-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bhtFA3s2f1LtNf_wh4Dm-14">
@@ -75,6 +75,18 @@
         </mxCell>
         <mxCell id="bhtFA3s2f1LtNf_wh4Dm-21" value="通过gamePlayer.MailMgr.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Mails.GetAllKeys获取所有&lt;br&gt;邮件ID，放入mailIds数组，&lt;br&gt;然后调用DateHelper.&lt;br&gt;GetCurrentTimeStmp方法获取当前时间戳nowTs,对于每个ID，调用Mails.TryGetValue方法尝试获取GameMail对象并赋值给gameMail，然后检查gameMail是否为空，再看ExpireTime是否比nowTs小，小的话把该MailId对应的邮件设为null" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="660" width="150" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bhtFA3s2f1LtNf_wh4Dm-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="560" as="sourcePoint" />
+            <mxPoint x="640" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-23" value="MailManager.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;SeeOneMail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="600" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-24" value="调用gamePlayer.MailMgr.Mails的TryGetValue方法，获得gameMail对象，如果为空直接返回，不为空把gameMail的IsSee属性赋值为1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="660" width="150" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
