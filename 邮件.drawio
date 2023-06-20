@@ -1,23 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2023-06-19T11:53:53.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.43" etag="Kx7NRjTHZz_hv06-W1jp" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-20T03:34:21.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="9wK7_SyghTzA36SAGcql" version="21.5.0" type="github">
   <diagram name="第 1 页" id="jWjg_nSxuoue5GjSfEUD">
     <mxGraphModel dx="982" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="R2KGEx9fCPqM5bIvwB1s-1" value="SceneServerComponnentSystem.&lt;br&gt;_client_handle" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="R2KGEx9fCPqM5bIvwB1s-1" value="SceneServerComponnentSystem.&lt;br&gt;_client_handle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="270" y="60" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R2KGEx9fCPqM5bIvwB1s-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R2KGEx9fCPqM5bIvwB1s-1" target="R2KGEx9fCPqM5bIvwB1s-3">
+        <mxCell id="R2KGEx9fCPqM5bIvwB1s-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R2KGEx9fCPqM5bIvwB1s-1" target="R2KGEx9fCPqM5bIvwB1s-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="210" as="sourcePoint" />
             <mxPoint x="370" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="R2KGEx9fCPqM5bIvwB1s-3" value="GetMailRewarsHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="150" width="160" height="60" as="geometry" />
+        <mxCell id="R2KGEx9fCPqM5bIvwB1s-3" value="GetMailRewarsHandler" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="150" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="R2KGEx9fCPqM5bIvwB1s-8" value="创建一个Get_Mail_RewarsResp对象resp，先设置状态代码为Success、Msg为OK，&lt;br&gt;然后通过ActorHelperClass的DeserializeMessagePack反序列化msg的GetReadMemory，创建一个Get_Mail_RewardsParam&lt;br&gt;对象pup。如果pup为空，把resp的状态代码设置为ParamParseError，Msg也改，然后通过ActorHelperClass.&lt;br&gt;SendToGate发送消息给Gate；如果不为空，创建items字典，GameObjectMap对象，和一个List数组sourceList。如果MailId是0（代表全部邮件），创建一个long数组，利用gamePlayer.&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MailMgr.Mails.GetAllKeys()获得所有Mail的Id，对于每个MailId，通过MailManager的DealOneMail方法得到一个(outItems,gameMail)元组，outItems是&amp;lt;int,double&amp;gt;字典，第一个是物品ID，第二个是数量，然后遍历所有outItems的内容处理奖励，加入到sourceList中。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;处理完之后创建GAArgs实例，传入参数，表示从邮件获得的奖励，然后调用AddSourceArg添加来源附加参数，这里发送了Mail_Id，然后发送了Mail_Source&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="210" width="160" height="590" as="geometry" />
+        <mxCell id="R2KGEx9fCPqM5bIvwB1s-8" value="创建一个Get_Mail_RewarsResp对象resp，先设置状态代码为Success、Msg为OK，&lt;br&gt;然后通过ActorHelperClass的DeserializeMessagePack创建一个Get_Mail_RewardsParam&lt;br&gt;对象pup。如果pup为空，把resp的状态代码设置为ParamParseError，Msg也改为parse error，然后通过ActorHelperClass.&lt;br&gt;SendToGate发送消息给Gate；如果不为空，创建items字典，GameObjectMap对象，和一个List数组sourceList。如果MailId是0（代表全部邮件），创建一个long数组，利用gamePlayer.&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;MailMgr.Mails.GetAllKeys()获得所有Mail的Id，对于每个MailId，通过MailManager的DealOneMail方法得到一个(outItems,gameMail)元组，outItems是&amp;lt;int,double&amp;gt;字典，第一个是物品ID，第二个是数量，然后遍历所有outItems的内容处理奖励，加入到sourceList中。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;处理完之后创建GAArgs实例，传入参数，表示从邮件获得的奖励，然后调用AddSourceArg添加来源附加参数，这里发送了Mail_Id，然后发送了Mail_Source&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="210" width="160" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R2KGEx9fCPqM5bIvwB1s-8" target="bhtFA3s2f1LtNf_wh4Dm-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="890" as="sourcePoint" />
+            <mxPoint x="160" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-2" value="ActorHelperClass.&lt;br&gt;DeserializeMessagePack" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="830" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-3" value="反序列化msg.GetReadMemory()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="890" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="R2KGEx9fCPqM5bIvwB1s-8" target="bhtFA3s2f1LtNf_wh4Dm-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="910" as="sourcePoint" />
+            <mxPoint x="290" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-5" value="MailManager.DealOneMail" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="830" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-6" value="根据传入的GamePlayerPlus对象和mailID，利用TryGetValue在Mails的字典里面找到对应的邮件，如果邮件为空就返回一个元素为空的(items,gamemail)元组，如果现在的时间大于ExpireTime(没注释，还不懂是什么)就让该邮件赋值为null。以上两个条件都为false，进入else语句块，检查广告领取，然后用一个itemIds数组存gameMail.&lt;br&gt;MailRewards.GetAllKeys的返回值，然后就是常见的每个itemId如果items里已有该id就数量+Count，否则就把数量设为Count。最后把该MailId的值设为空，返回(items,gameMail)元组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="890" width="150" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="bhtFA3s2f1LtNf_wh4Dm-10" target="bhtFA3s2f1LtNf_wh4Dm-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="1130" as="sourcePoint" />
+            <mxPoint x="310" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-10" value="GameObject的_props在哪里初始化的&lt;br&gt;解决：AddProps方法加进去的，在GameMail类的构造函数调用了InitProp方法，把属性都加进去了" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1230" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-14" value="SeeMailRewarsHandler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-15" value="创建一个See_MailResp对象resp，设置状态代码为success，Msg为OK，然后传入msg.GetReadMemory&lt;br&gt;反序列化得到See_MailParam对象pup，如果pup为空，同左。如果不为空，调用MailManager.&lt;br&gt;CheckMailExpireTime方法，" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="160" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bhtFA3s2f1LtNf_wh4Dm-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="120" as="sourcePoint" />
+            <mxPoint x="710" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="bhtFA3s2f1LtNf_wh4Dm-15" target="bhtFA3s2f1LtNf_wh4Dm-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="680" as="sourcePoint" />
+            <mxPoint x="480" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-18" value="MailManager.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;CheckMailExpireTime" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="620" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bhtFA3s2f1LtNf_wh4Dm-19" value="反序列化msg.GetReadMemory()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="680" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
