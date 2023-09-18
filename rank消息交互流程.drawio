@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T05:26:19.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="90HI_UtCOLYoF8vEFQX6" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T06:01:18.974Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="UjwdakNNvr32ZQRez-Np" version="21.7.4" type="github">
   <diagram name="第 1 页" id="BnO7v0a0NeAxPuLIhtkJ">
-    <mxGraphModel dx="1921" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2559" dy="1177" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,8 +46,8 @@
             <mxPoint x="430" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tJE50FEFWKrPducL1dcV-15" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=24;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="570" y="440" width="230" height="100" as="geometry" />
+        <mxCell id="tJE50FEFWKrPducL1dcV-15" value="调用PlayerStagersManager的UpdateStage" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=24;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="555" y="440" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="tJE50FEFWKrPducL1dcV-16" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=24;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -70,8 +70,8 @@
         <mxCell id="tJE50FEFWKrPducL1dcV-19" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;调用ProgressManager中的UpdateRank向RankServer发消息，调用UpdateProgressData&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=24;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="141" y="450" width="230" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="tJE50FEFWKrPducL1dcV-20" value="更新阶段匹配" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=24;fontColor=default;fillColor=default;" vertex="1" parent="1">
-          <mxGeometry x="570" y="590" width="230" height="100" as="geometry" />
+        <mxCell id="tJE50FEFWKrPducL1dcV-20" value="关卡进度转换为stage，根据serverId取_player_stages下的dic" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=24;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="590" width="290" height="100" as="geometry" />
         </mxCell>
         <mxCell id="tJE50FEFWKrPducL1dcV-25" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=24;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -411,6 +411,156 @@
         </mxCell>
         <mxCell id="tJE50FEFWKrPducL1dcV-118" value="从startID到endID合并排行榜，再取前100，创建全区manager，将其add进入总的manager，返回" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="1382.5" y="890" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-119" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJE50FEFWKrPducL1dcV-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="790" as="sourcePoint" />
+            <mxPoint x="685" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-120" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;dic是否取到&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="730" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-122" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJE50FEFWKrPducL1dcV-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="930" as="sourcePoint" />
+            <mxPoint x="685" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-124" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="690" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-126" value="取dict里key为stage的值set" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=24;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="545" y="1180" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-127" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;set是否取到&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1320" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-128" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="689.29" y="1280" as="sourcePoint" />
+            <mxPoint x="689.29" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-129" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJE50FEFWKrPducL1dcV-127">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1520" as="sourcePoint" />
+            <mxPoint x="685" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-130" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="1378.57" as="sourcePoint" />
+            <mxPoint x="890" y="1378.57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-131" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-132" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="825" y="1350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-133" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="830" y="760" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-134" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="790" as="sourcePoint" />
+            <mxPoint x="890" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-136" value="调用一次load函数，从数据库加载，然后再取一次innerDic" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=24;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="890" y="740" width="290" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-137" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJE50FEFWKrPducL1dcV-136">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="960" as="sourcePoint" />
+            <mxPoint x="1035" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-138" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;innerDic是否取到&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="890" y="880" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-139" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJE50FEFWKrPducL1dcV-138">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="1100" as="sourcePoint" />
+            <mxPoint x="1035" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-140" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-143" value="innerDic赋值为new，然后赋值给dic,tryadd加入_player_stages中" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=24;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1040" width="310" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-145" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tJE50FEFWKrPducL1dcV-126">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="1230" as="sourcePoint" />
+            <mxPoint x="1035" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-146" value="" style="endArrow=none;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="tJE50FEFWKrPducL1dcV-143">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1035" y="1230" as="sourcePoint" />
+            <mxPoint x="1070" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-148" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;new一个set，然后tryadd放入dic中&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="890" y="1330" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-151" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;set中是否有该player&lt;br&gt;(阶段未发生变化)&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1490" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-152" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJE50FEFWKrPducL1dcV-151">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="1740" as="sourcePoint" />
+            <mxPoint x="685" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-153" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="690" y="1620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-154" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;return&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="625" y="1660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-155" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1510" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-157" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJE50FEFWKrPducL1dcV-151">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="1620" as="sourcePoint" />
+            <mxPoint x="880" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-158" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;set中加入player&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1500" width="260" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-159" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.544;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1012.0000000000005" y="1430" as="sourcePoint" />
+            <mxPoint x="1013" y="1501.3000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-160" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJE50FEFWKrPducL1dcV-158">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1070" y="1690" as="sourcePoint" />
+            <mxPoint x="1010" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-162" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;stage-1对应的oldset&lt;br&gt;能否取到&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="865" y="1640" width="290" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-163" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tJE50FEFWKrPducL1dcV-162">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="1880" as="sourcePoint" />
+            <mxPoint x="1010" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-165" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1800" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tJE50FEFWKrPducL1dcV-167" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;从old中删除player&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fontFamily=Helvetica;fontSize=16;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1840" width="260" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
